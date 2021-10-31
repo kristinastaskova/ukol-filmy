@@ -1,0 +1,30 @@
+.movie {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+h2 {
+    color: #46CCDB;
+    margin: 0;
+}
+h5 {
+    color: #3AA9B5;
+}
+
+p{
+    font-size: 10px;
+}
+.poster {
+max-width: 30%;
+}
+.info {
+    display: flex;
+flex-direction: column;
+flex: none;
+}
+
+
+span {
+    font-weight: bold;
+}
