@@ -1,4 +1,5 @@
 import React from 'react';
+import Actor from '../Actor'
 
 const Movie = ({ title, poster, year, rating, director, genre, cast }) => {
     return (
@@ -9,6 +10,7 @@ const Movie = ({ title, poster, year, rating, director, genre, cast }) => {
             <p>{rating}</p>
             <p>{director}</p>
             <p>{genre}</p>
+            <div>{cast.map(actor => <Actor key={actor.name} name={actor.name} as={actor.as}/>)}</div>
         </div>
     )
 }
